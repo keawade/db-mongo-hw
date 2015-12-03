@@ -1,0 +1,5 @@
+SELECT nameLast, nameFirst, Quantity 
+FROM Customer 
+FULL JOIN Order 
+FULL JOIN Supplier 
+WHERE supplierNo = "S123";
