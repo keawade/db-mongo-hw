@@ -1,5 +1,9 @@
-SELECT nameLast, nameFirst, Quantity 
+SELECT nameLast, nameFirst, Quantity, ItemNo
 FROM Customer 
-FULL JOIN Order 
+FULL JOIN BUYS
+FULL JOIN Order
+FULL JOIN Contains
+Full JOIN Item
+FULL JOIN Supplies
 FULL JOIN Supplier 
 WHERE supplierNo = "S123";
