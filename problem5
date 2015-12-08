@@ -1,8 +1,8 @@
 SELECT nameLast, nameFirst, Quantity, ItemNo
-FROM Customer 
+FROM Customer
 FULL JOIN Buys
 FULL JOIN Order
 FULL JOIN Contains
-Full JOIN Item
+FULL JOIN Item
 FULL JOIN Supplies
 WHERE supplierNo = "S123";
