@@ -22,7 +22,7 @@ db.thing.aggregate(
     $group: {
       _id: '$custId',
       custName: '$custName',
-      qty: '$qty'
+      qty: '$quantity'
     }
   }
 )
