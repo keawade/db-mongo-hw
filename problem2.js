@@ -38,7 +38,7 @@
       areaCode: Number, // 3 digits
       number: Number // 7 digits
     },
-    items: [{
+    itemsOrder: [{
       itemNo: Number, // itemNo values from db.items
       quantity: Number
     }]
